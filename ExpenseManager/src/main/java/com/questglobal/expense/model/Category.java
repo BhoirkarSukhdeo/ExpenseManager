@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.NotEmpty;
+
 @Entity
 public class Category {
 
@@ -14,6 +15,7 @@ public class Category {
 	@Column(name="categoryId")
 	private int categoryId;
 	
+
 	@Column(name="categoryValues")
 	@NotEmpty(message = " Category Value Is Empty ")
 	private String categoryValues;

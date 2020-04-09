@@ -10,8 +10,16 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonFormat.Shape;
 
 @Entity
 public class Expense {
@@ -30,17 +38,22 @@ public class Expense {
     private String description;
 	
 	@Column(name="amount")
-	@NotEmpty(message = " Amount Is Empty ")
+	@NotNull
 	private float amount;
 	
+	@JsonFormat(pattern = "yyyy-MM-dd",shape = Shape.STRING)
+	@Temporal(TemporalType.DATE)
 	@Column(name="date")
-	@NotEmpty(message = " Date Is Empty ")
 	private Date date;
 	
 	@OneToMany(cascade = CascadeType.ALL)
 	@JoinColumn(name = "expenseId",referencedColumnName = "expenseId")
 	private List<Category> category;
 
+	@JsonIgnore
+	@ManyToOne
+	@JoinColumn(name="userId")
+	private User userId;
 	public int getExpenseId() {
 		return expenseId;
 	}
@@ -79,6 +92,14 @@ public class Expense {
 
 	public void setDate(Date date) {
 		this.date = date;
+	}
+
+	public User getUserId() {
+		return userId;
+	}
+
+	public void setUserId(User userId) {
+		this.userId = userId;
 	}
 
 	public List<Category> getCategory() {

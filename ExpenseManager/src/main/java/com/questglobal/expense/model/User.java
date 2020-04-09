@@ -15,6 +15,8 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 @Table(name="User")
 public class User {
@@ -42,9 +44,9 @@ public class User {
 	@Size(min = 8)
 	private String userPassword;
 	
-	@OneToMany(cascade = CascadeType.ALL)
-	@JoinColumn(name = "userId",referencedColumnName = "userId")
-	private List<Expense> expenseList;
+	@JsonIgnore
+	@OneToMany(cascade = CascadeType.ALL,mappedBy = "userId")
+    private List<Expense> expenseList;
 	
 	public int getUserId() {
 		return userId;

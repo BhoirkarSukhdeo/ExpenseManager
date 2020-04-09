@@ -8,19 +8,19 @@ import javax.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.ModelAndView;
-
 import com.questglobal.expense.model.Expense;
 import com.questglobal.expense.model.User;
 import com.questglobal.expense.serviceinterface.UserService;
@@ -67,26 +67,35 @@ public class UserController {
     	
 	}
 	
-	@GetMapping(value = "/loginform")
-	public String displaySuccessPage(@RequestParam String userEmail,@RequestParam  String userPassword,Model model)throws EntityNotFoundException
-	{
-		logger.info("UserController :: displaySuccessPage method called with "+userEmail,userPassword);
-		User user=userService.findByUserEmailAndUserPassword(userEmail, userPassword);
-		if(user.getUserEmail().equals(userEmail)&& user.getUserPassword().equals(userPassword))
-		  {
-			 List<Expense> expenseList= userService.displayExpense();
-			  model.addAttribute("allData", expenseList);
-			 return "success";
-           }
-		 else
-			 return "login";
-	}
-	
-	@PostMapping("/addExpenseData")
-	public String addExpenseData(@Valid Expense expense)
+	@GetMapping(value = "/loginform/userEmail/{userEmail}/userPassword/{userPassword}")
+	public ResponseEntity<List<Expense>> displaySuccessPage(@PathVariable String userEmail,@PathVariable  String userPassword)throws EntityNotFoundException
 	{
 		
-		return "success";
+		List<Expense> expenseList=null;
+		logger.info("UserController :: displaySuccessPage method called with "+userEmail,userPassword);
+		User user=userService.findByUserEmailAndUserPassword(userEmail, userPassword);
+		
+		if(user.getUserEmail().equals(userEmail)&& user.getUserPassword().equals(userPassword))
+		  {
+			 expenseList= userService.displayExpense(user.getUserId());
+		  }
+			 return new ResponseEntity<List<Expense>>(expenseList,HttpStatus.OK);
+         
+	 }
+	
+	@PostMapping("/addExpenseData")
+	public ResponseEntity<Expense> addExpenseData(@Valid @RequestBody Expense expense,BindingResult br) throws Exception
+	{
+		logger.info("UserController :: addExpenseData method called");
+	 if(br.hasErrors())
+		{
+		   logger.error("UserController :: error occured at register page");  
+		   return new ResponseEntity<Expense>(HttpStatus.BAD_REQUEST);
+		}
+         Expense expenseData=userService.addExpenseData(expense);
+         return new ResponseEntity<Expense>(expenseData,HttpStatus.OK);
+		
 	}
+	
 	
 }

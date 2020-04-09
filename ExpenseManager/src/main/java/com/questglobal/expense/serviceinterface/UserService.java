@@ -11,5 +11,7 @@ public interface UserService {
 
 	public User addUserDetails(User user);
 	public User findByUserEmailAndUserPassword(String userEmail,String userPassword);
-	public List<Expense> displayExpense();
+	public List<Expense> displayExpense(int UserId);
+	public Expense addExpenseData(Expense expense);
+	
 }
