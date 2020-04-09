@@ -11,21 +11,23 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
+
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
 import com.questglobal.expense.model.Expense;
 import com.questglobal.expense.model.User;
 import com.questglobal.expense.serviceinterface.UserService;
 
-@Controller
+@RestController
 @RequestMapping(value = "/userController")
 public class UserController {
 
@@ -98,4 +100,39 @@ public class UserController {
 	}
 	
 	
+	@GetMapping("/editexpenseData/expenseId/{expenseId}")
+	public ResponseEntity<Expense> editExpenseData(@PathVariable Integer expenseId)
+	{
+		logger.info("UserController :: editExpenseData method call");
+		Expense expense=userService.editExpenseData(expenseId);
+		if(expense==null)
+			return new ResponseEntity<Expense>(HttpStatus.BAD_REQUEST);
+		else
+		return new ResponseEntity<Expense>(expense,HttpStatus.OK);
+	}
+	
+	
+	@PutMapping("/updateExpense")
+	public ResponseEntity<Expense> updateExpenseData(@Valid @RequestBody Expense expense,BindingResult br)
+	{
+       if(br.hasErrors())
+		{
+		   logger.error("UserController :: error occured at register page");  
+		   return new ResponseEntity<Expense>(HttpStatus.BAD_REQUEST);
+		}
+		else
+		{
+            Expense expenseData=userService.addExpenseData(expense);
+            return new ResponseEntity<Expense>(expenseData,HttpStatus.OK);
+		}
+	}
+	
+	@DeleteMapping("/deleteExpenseData/expenseId/{expenseId}")
+	public ResponseEntity<?> deleteExpenseData(@PathVariable Integer expenseId)
+	{
+		userService.deleteExpenseData(expenseId);
+		return new ResponseEntity(HttpStatus.OK);
+	}
+	
+
 }

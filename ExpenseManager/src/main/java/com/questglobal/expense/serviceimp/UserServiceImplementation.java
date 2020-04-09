@@ -57,8 +57,19 @@ public class UserServiceImplementation implements UserService{
 	}
 
 	
+	@Override
+	public Expense editExpenseData(Integer expenseId) {
+		
+		Expense expense=expenseDao.findById(expenseId).get();
+		
+		return expense;
+	}
 	
-	
+	@Override
+	public void deleteExpenseData(Integer expenseId) {
+		expenseDao.deleteById(expenseId);
+		
+	}
 
 	
 	
