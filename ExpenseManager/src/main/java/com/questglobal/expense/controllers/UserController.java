@@ -8,7 +8,7 @@ import javax.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
@@ -134,5 +134,16 @@ public class UserController {
 		return new ResponseEntity(HttpStatus.OK);
 	}
 	
+	
+	@GetMapping("/pagination/{userId}/{pageNo}/{pageSize}")
+    public ResponseEntity<List<Expense>> getAllExpense(@PathVariable Integer userId,
+                        @PathVariable Integer pageNo, 
+                        @PathVariable Integer pageSize)
+                        
+    {
+        List<Expense> list = userService.getAllExpense(userId,pageNo, pageSize);
+         
+        return new ResponseEntity<List<Expense>>(list, new HttpHeaders(), HttpStatus.OK); 
+    }
 
 }

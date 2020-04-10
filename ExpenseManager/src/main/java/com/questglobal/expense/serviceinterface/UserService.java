@@ -15,5 +15,7 @@ public interface UserService {
 	public Expense addExpenseData(Expense expense);
 	public Expense editExpenseData(Integer expenseId);
 	public void deleteExpenseData(Integer expenseId);
+	public List<Expense> getAllExpense(Integer userId,Integer pageNo,Integer pageSize);
+
 	
 }
