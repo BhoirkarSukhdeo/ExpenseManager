@@ -46,6 +46,7 @@ public class Expense {
 	@Column(name="date")
 	private Date date;
 	
+	@JsonIgnore
 	@OneToMany(cascade = CascadeType.ALL)
 	@JoinColumn(name = "expenseId",referencedColumnName = "expenseId")
 	private List<Category> category;
@@ -102,13 +103,12 @@ public class Expense {
 		this.userId = userId;
 	}
 
-	public List<Category> getCategory() {
-		return category;
-	}
-
-	public void setCategory(List<Category> category) {
-		this.category = category;
-	}
+	/*
+	 * public List<Category> getCategory() { return category; }
+	 * 
+	 * public void setCategory(List<Category> category) { this.category = category;
+	 * }
+	 */
 	
 	
 

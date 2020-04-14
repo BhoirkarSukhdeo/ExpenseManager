@@ -53,11 +53,7 @@ public class UserServiceImplementation implements UserService{
 		return expenseDao.findByUserId(userDao.findById(userId).get());
 	}
 
-	@Override
-	public Expense addExpenseData(Expense expense) {
-		
-		return expenseDao.save(expense);
-	}
+	
 
 	
 	@Override
@@ -74,7 +70,12 @@ public class UserServiceImplementation implements UserService{
 		
 	}
 
-	
+	@Override
+	public List<Expense> displayAllExpenseData() {
+		
+		return expenseDao.findAll();
+	}
+      
 	@Override
 	public List<Expense> getAllExpense(Integer userId,Integer pageNo, Integer pageSize) {
 		Pageable paging = PageRequest.of(pageNo, pageSize);
@@ -87,7 +88,8 @@ public class UserServiceImplementation implements UserService{
             return new ArrayList<Expense>();
         }
 	}
-      
+
+	
 	
 	
 

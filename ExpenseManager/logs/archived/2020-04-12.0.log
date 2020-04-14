@@ -1,0 +1,21 @@
+2020-04-12 12:21:32,395 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-12 12:23:07,311 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [GET /userController/pagination/1/0/2]
+2020-04-12 12:23:08,563 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : GET /userController/pagination/1/0/2]
+2020-04-12 12:23:09,146 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] Before request [GET /favicon.ico]
+2020-04-12 12:23:09,173 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] REQUEST DATA : GET /favicon.ico]
+2020-04-12 12:23:27,162 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-4] Before request [GET /userController/openIndex]
+2020-04-12 12:23:27,178 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-4] REQUEST DATA : GET /userController/openIndex]
+2020-04-12 12:24:04,583 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-12 12:24:08,386 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [GET /userController/openIndex]
+2020-04-12 12:24:10,051 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : GET /userController/openIndex]
+2020-04-12 12:24:38,091 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-3] Before request [GET /userController/loginform?userEmail=jay%40gmail.com&userPassword=jay1234]
+2020-04-12 12:24:38,124 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-3] REQUEST DATA : GET /userController/loginform?userEmail=jay%40gmail.com&userPassword=jay1234]
+2020-04-12 12:28:20,269 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-6] Before request [GET /userController/openIndex]
+2020-04-12 12:28:20,297 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-6] REQUEST DATA : GET /userController/openIndex]
+2020-04-12 12:28:40,224 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-8] Before request [GET /userController/loginform?userEmail=hbb%40gmail.com&userPassword=jnjnknknknkn]
+2020-04-12 12:28:40,234 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-8] REQUEST DATA : GET /userController/loginform?userEmail=hbb%40gmail.com&userPassword=jnjnknknknkn]
+2020-04-12 12:29:50,449 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] Before request [GET /userController/loginform/userEmail/hjdsjdjs@gmail.com/userPassword/skjkshuh2244]
+2020-04-12 12:29:50,497 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] REQUEST DATA : GET /userController/loginform/userEmail/hjdsjdjs@gmail.com/userPassword/skjkshuh2244]
+2020-04-12 12:33:49,167 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-12 12:33:59,379 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-12 19:44:00,417 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use

@@ -1,0 +1,12 @@
+15:09:07.820 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - Starting ExpenseManagerApplication on DESKTOP-GGB6N6P with PID 11072 (C:\Users\Narayan\Desktop\Git\ExpenseManager\target\classes started by Narayan in C:\Users\Narayan\Desktop\Git\ExpenseManager)
+15:09:07.826 [restartedMain] DEBUG c.q.e.ExpenseManagerApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+15:09:07.827 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - No active profile set, falling back to default profiles: default
+15:09:17.837 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - Started ExpenseManagerApplication in 10.964 seconds (JVM running for 13.949)
+15:15:17.548 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - Starting ExpenseManagerApplication on DESKTOP-GGB6N6P with PID 11072 (C:\Users\Narayan\Desktop\Git\ExpenseManager\target\classes started by Narayan in C:\Users\Narayan\Desktop\Git\ExpenseManager)
+15:15:17.548 [restartedMain] DEBUG c.q.e.ExpenseManagerApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+15:15:17.548 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - No active profile set, falling back to default profiles: default
+15:15:20.439 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - Started ExpenseManagerApplication in 3.052 seconds (JVM running for 376.556)
+15:16:32.604 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - Starting ExpenseManagerApplication on DESKTOP-GGB6N6P with PID 11072 (C:\Users\Narayan\Desktop\Git\ExpenseManager\target\classes started by Narayan in C:\Users\Narayan\Desktop\Git\ExpenseManager)
+15:16:32.604 [restartedMain] DEBUG c.q.e.ExpenseManagerApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+15:16:32.604 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - No active profile set, falling back to default profiles: default
+15:16:34.950 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - Started ExpenseManagerApplication in 2.443 seconds (JVM running for 451.054)

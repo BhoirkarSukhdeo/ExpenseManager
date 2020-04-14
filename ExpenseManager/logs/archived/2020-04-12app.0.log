@@ -1,0 +1,25 @@
+12:21:26.599 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - Starting ExpenseManagerApplication on DESKTOP-GGB6N6P with PID 6136 (C:\Users\Narayan\Desktop\Git\ExpenseManager\target\classes started by Narayan in C:\Users\Narayan\Desktop\Git\ExpenseManager)
+12:21:26.609 [restartedMain] DEBUG c.q.e.ExpenseManagerApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+12:21:26.610 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - No active profile set, falling back to default profiles: default
+12:21:38.567 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - Started ExpenseManagerApplication in 12.964 seconds (JVM running for 17.884)
+12:23:07.435 [http-nio-2020-exec-1] INFO  c.q.e.controllers.UserController - UserController :: getAllExpense Method Call..paginatio
+12:23:27.165 [http-nio-2020-exec-4] INFO  c.q.e.controllers.UserController - UserController :: openIndex method
+12:24:01.924 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - Starting ExpenseManagerApplication on DESKTOP-GGB6N6P with PID 6136 (C:\Users\Narayan\Desktop\Git\ExpenseManager\target\classes started by Narayan in C:\Users\Narayan\Desktop\Git\ExpenseManager)
+12:24:01.925 [restartedMain] DEBUG c.q.e.ExpenseManagerApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+12:24:01.925 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - No active profile set, falling back to default profiles: default
+12:24:05.951 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - Started ExpenseManagerApplication in 4.279 seconds (JVM running for 165.267)
+12:24:08.392 [http-nio-2020-exec-1] INFO  c.q.e.controllers.UserController - UserController :: openIndex method
+12:28:20.275 [http-nio-2020-exec-6] INFO  c.q.e.controllers.UserController - UserController :: openIndex method
+12:29:50.462 [http-nio-2020-exec-2] INFO  c.q.e.controllers.UserController - UserController :: displaySuccessPage method called with hjdsjdjs@gmail.com
+12:33:47.824 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - Starting ExpenseManagerApplication on DESKTOP-GGB6N6P with PID 6136 (C:\Users\Narayan\Desktop\Git\ExpenseManager\target\classes started by Narayan in C:\Users\Narayan\Desktop\Git\ExpenseManager)
+12:33:47.824 [restartedMain] DEBUG c.q.e.ExpenseManagerApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+12:33:47.824 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - No active profile set, falling back to default profiles: default
+12:33:50.620 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - Started ExpenseManagerApplication in 2.986 seconds (JVM running for 749.946)
+12:33:57.486 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - Starting ExpenseManagerApplication on DESKTOP-GGB6N6P with PID 6136 (C:\Users\Narayan\Desktop\Git\ExpenseManager\target\classes started by Narayan in C:\Users\Narayan\Desktop\Git\ExpenseManager)
+12:33:57.486 [restartedMain] DEBUG c.q.e.ExpenseManagerApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+12:33:57.486 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - No active profile set, falling back to default profiles: default
+12:34:01.066 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - Started ExpenseManagerApplication in 3.691 seconds (JVM running for 760.383)
+19:43:58.009 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - Starting ExpenseManagerApplication on DESKTOP-GGB6N6P with PID 6136 (C:\Users\Narayan\Desktop\Git\ExpenseManager\target\classes started by Narayan in C:\Users\Narayan\Desktop\Git\ExpenseManager)
+19:43:58.010 [restartedMain] DEBUG c.q.e.ExpenseManagerApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+19:43:58.011 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - No active profile set, falling back to default profiles: default
+19:44:02.300 [restartedMain] INFO  c.q.e.ExpenseManagerApplication - Started ExpenseManagerApplication in 4.616 seconds (JVM running for 26561.658)

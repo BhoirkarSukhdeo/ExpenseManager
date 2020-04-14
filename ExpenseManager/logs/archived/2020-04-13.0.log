@@ -1,0 +1,253 @@
+2020-04-13 08:48:32,645 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 08:49:58,878 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 08:50:21,599 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 08:51:02,737 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 08:51:40,967 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 08:52:03,560 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 08:52:35,270 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:08:51,810 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:16:30,212 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:17:11,061 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:18:23,778 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:23:23,195 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] Before request [POST /expenseController/addexpense]
+2020-04-13 09:23:23,264 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] REQUEST DATA : POST /expenseController/addexpense]
+2020-04-13 09:23:56,264 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:24:04,210 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:24:09,875 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [POST /expenseController/addexpense]
+2020-04-13 09:24:09,888 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : POST /expenseController/addexpense]
+2020-04-13 09:24:27,240 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] Before request [POST /expenseController/addExpense]
+2020-04-13 09:24:27,251 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] REQUEST DATA : POST /expenseController/addExpense]
+2020-04-13 09:25:16,894 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-3] Before request [POST /expenseController/addExpenseData]
+2020-04-13 09:25:16,903 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-3] REQUEST DATA : POST /expenseController/addExpenseData]
+2020-04-13 09:25:30,715 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-4] Before request [POST /expenseController/addExpenseData]
+2020-04-13 09:25:30,733 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-4] REQUEST DATA : POST /expenseController/addExpenseData]
+2020-04-13 09:26:16,988 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:26:22,869 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [POST /expenseController/addExpenseData]
+2020-04-13 09:26:22,881 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : POST /expenseController/addExpenseData]
+2020-04-13 09:28:40,979 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:29:24,601 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:30:32,529 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:31:14,142 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:33:28,201 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:34:14,100 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:35:15,997 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:37:25,776 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:42:01,614 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:42:37,700 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:43:01,051 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:43:05,736 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [POST /expenseController/addExpenseData]
+2020-04-13 09:43:05,747 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : POST /expenseController/addExpenseData]
+2020-04-13 09:43:19,743 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] Before request [POST /expenseController/addExpenseData]
+2020-04-13 09:43:19,750 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] REQUEST DATA : POST /expenseController/addExpenseData]
+2020-04-13 09:45:26,044 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:45:32,178 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:45:36,687 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [POST /expenseController/addExpenseData]
+2020-04-13 09:45:36,700 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : POST /expenseController/addExpenseData]
+2020-04-13 09:46:48,847 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:48:13,921 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:53:11,740 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:53:14,780 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [POST /expenseController/addExpenseData]
+2020-04-13 09:53:14,792 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : POST /expenseController/addExpenseData]
+2020-04-13 09:53:32,261 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 09:58:11,345 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 10:00:26,887 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 10:07:33,312 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 10:10:29,335 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 10:11:08,104 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 10:11:49,204 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 10:14:41,484 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 10:15:37,228 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 10:19:38,886 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 10:20:04,249 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 10:20:26,812 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 10:21:44,091 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 10:21:50,107 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 10:26:41,346 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 10:29:00,650 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:09:57,227 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:16:27,840 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:17:28,695 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:18:28,920 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:18:35,259 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [GET /boot-jersey/expenseController/display]
+2020-04-13 18:18:35,981 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : GET /boot-jersey/expenseController/display]
+2020-04-13 18:18:44,029 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] Before request [GET /boot-jersey/expenseController/display]
+2020-04-13 18:18:44,059 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] REQUEST DATA : GET /boot-jersey/expenseController/display]
+2020-04-13 18:20:20,860 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:20:25,091 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [GET /boot-jersey/expenseController/display]
+2020-04-13 18:20:25,172 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : GET /boot-jersey/expenseController/display]
+2020-04-13 18:21:52,083 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:21:53,935 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [GET /boot-jersey/expenseController/display]
+2020-04-13 18:21:53,987 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : GET /boot-jersey/expenseController/display]
+2020-04-13 18:22:24,113 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:22:28,674 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [GET /boot-jersey/expenseController/display]
+2020-04-13 18:22:28,861 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : GET /boot-jersey/expenseController/display]
+2020-04-13 18:22:35,613 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] Before request [GET /boot-jersey/expenseController/display]
+2020-04-13 18:22:35,636 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] REQUEST DATA : GET /boot-jersey/expenseController/display]
+2020-04-13 18:30:47,671 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:30:56,655 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [GET /boot-jersey/expenseController/display]
+2020-04-13 18:30:56,752 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : GET /boot-jersey/expenseController/display]
+2020-04-13 18:31:36,375 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:31:40,363 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [GET /boot-jersey/expenseController/display]
+2020-04-13 18:31:40,446 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : GET /boot-jersey/expenseController/display]
+2020-04-13 18:32:47,974 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:33:11,904 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:33:17,273 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [GET /boot-jersey/expenseController/display]
+2020-04-13 18:33:17,391 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : GET /boot-jersey/expenseController/display]
+2020-04-13 18:33:31,890 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:33:36,900 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [GET /boot-jersey/expenseController/display]
+2020-04-13 18:33:36,984 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : GET /boot-jersey/expenseController/display]
+2020-04-13 18:34:12,763 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:34:18,541 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [GET /boot-jersey/expenseController/display]
+2020-04-13 18:34:18,617 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : GET /boot-jersey/expenseController/display]
+2020-04-13 18:34:36,758 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:34:38,279 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [GET /boot-jersey/expenseController/display]
+2020-04-13 18:34:38,340 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : GET /boot-jersey/expenseController/display]
+2020-04-13 18:35:40,036 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:35:47,519 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [GET /boot-jersey/expenseController/display]
+2020-04-13 18:35:47,599 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : GET /boot-jersey/expenseController/display]
+2020-04-13 18:36:29,765 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:36:36,102 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [GET /boot-jersey/expenseController/display]
+2020-04-13 18:36:36,171 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : GET /boot-jersey/expenseController/display]
+2020-04-13 18:36:58,172 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:40:49,103 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:41:25,455 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:43:39,326 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:44:02,898 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:44:05,697 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [POST /boot-jersey/expenseController/addExpenseData]
+2020-04-13 18:44:05,707 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : POST /boot-jersey/expenseController/addExpenseData]
+2020-04-13 18:45:05,351 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] Before request [POST /boot-jersey/expenseController/addExpenseData]
+2020-04-13 18:45:05,355 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] REQUEST DATA : POST /boot-jersey/expenseController/addExpenseData]
+2020-04-13 18:45:18,209 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:45:41,742 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:47:48,709 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:47:54,366 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [POST /boot-jersey/expenseController/addExpenseData]
+2020-04-13 18:47:54,373 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : POST /boot-jersey/expenseController/addExpenseData]
+2020-04-13 18:48:13,138 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:48:18,362 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-10] Before request [POST /boot-jersey/expenseController/add]
+2020-04-13 18:48:18,370 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-10] REQUEST DATA : POST /boot-jersey/expenseController/add]
+2020-04-13 18:49:06,001 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:49:12,979 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:49:16,864 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [POST /boot-jersey/expenseController/add]
+2020-04-13 18:49:16,872 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : POST /boot-jersey/expenseController/add]
+2020-04-13 18:49:21,477 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] Before request [POST /boot-jersey/expenseController/add]
+2020-04-13 18:49:21,483 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] REQUEST DATA : POST /boot-jersey/expenseController/add]
+2020-04-13 18:50:33,654 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:51:51,661 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [POST /boot-jersey/expenseController/add]
+2020-04-13 18:51:51,669 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : POST /boot-jersey/expenseController/add]
+2020-04-13 18:53:37,175 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:53:42,813 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [POST /boot-jersey/expenseController/add]
+2020-04-13 18:53:42,821 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : POST /boot-jersey/expenseController/add]
+2020-04-13 18:55:44,709 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:56:13,821 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:56:50,748 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:57:06,039 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:57:23,872 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [POST /boot-jersey/expenseController/hhh]
+2020-04-13 18:57:23,882 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : POST /boot-jersey/expenseController/hhh]
+2020-04-13 18:57:58,869 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 18:58:00,209 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] Before request [POST /boot-jersey/expenseController/hhh]
+2020-04-13 18:58:00,214 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] REQUEST DATA : POST /boot-jersey/expenseController/hhh]
+2020-04-13 19:01:09,668 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:01:21,744 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [POST /boot-jersey/expenseController/hhh]
+2020-04-13 19:01:21,752 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : POST /boot-jersey/expenseController/hhh]
+2020-04-13 19:03:50,366 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:03:55,607 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [POST /boot-jersey/expenseController/]
+2020-04-13 19:03:55,616 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : POST /boot-jersey/expenseController/]
+2020-04-13 19:04:15,970 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] Before request [POST /boot-jersey/expenseController]
+2020-04-13 19:04:15,981 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] REQUEST DATA : POST /boot-jersey/expenseController]
+2020-04-13 19:04:54,004 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-3] Before request [POST /boot-jersey/expenseController/display]
+2020-04-13 19:04:54,008 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-3] REQUEST DATA : POST /boot-jersey/expenseController/display]
+2020-04-13 19:05:03,355 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-4] Before request [POST /boot-jersey/expenseController/display]
+2020-04-13 19:05:03,358 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-4] REQUEST DATA : POST /boot-jersey/expenseController/display]
+2020-04-13 19:05:33,466 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-5] Before request [GET /boot-jersey/expenseController/display]
+2020-04-13 19:05:33,469 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-5] REQUEST DATA : GET /boot-jersey/expenseController/display]
+2020-04-13 19:05:38,284 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-6] Before request [GET /boot-jersey/expenseController/display]
+2020-04-13 19:05:38,286 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-6] REQUEST DATA : GET /boot-jersey/expenseController/display]
+2020-04-13 19:05:43,275 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-7] Before request [GET /boot-jersey/expenseController/display]
+2020-04-13 19:05:43,277 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-7] REQUEST DATA : GET /boot-jersey/expenseController/display]
+2020-04-13 19:06:17,362 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:06:28,546 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:06:33,255 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [GET /boot-jersey/expenseController/display]
+2020-04-13 19:06:33,336 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : GET /boot-jersey/expenseController/display]
+2020-04-13 19:07:10,857 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:07:19,673 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:07:32,213 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:07:42,426 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:08:06,489 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [POST /boot-jersey/expenseController/add]
+2020-04-13 19:08:06,824 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : POST /boot-jersey/expenseController/add, payload={
+    
+    "expenseTitle": "Electricity",
+    "description": "laptop",
+    "amount": 80000.00
+    
+}]
+2020-04-13 19:16:23,244 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:17:34,016 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:17:44,335 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:17:52,755 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [POST /boot-jersey/expenseController/add]
+2020-04-13 19:17:52,777 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : POST /boot-jersey/expenseController/add]
+2020-04-13 19:18:31,204 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:18:36,885 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [POST /boot-jersey/expenseController/add]
+2020-04-13 19:18:36,892 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : POST /boot-jersey/expenseController/add]
+2020-04-13 19:18:42,010 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] Before request [POST /boot-jersey/expenseController/add]
+2020-04-13 19:18:42,014 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] REQUEST DATA : POST /boot-jersey/expenseController/add]
+2020-04-13 19:19:03,889 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:19:48,109 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:19:52,944 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [POST /boot-jersey/expenseController/add]
+2020-04-13 19:19:53,052 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : POST /boot-jersey/expenseController/add, payload={
+    
+    "expenseTitle": "Electricity",
+    "description": "laptop",
+    "amount": 80000.00
+    
+}]
+2020-04-13 19:21:20,404 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:21:33,320 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:22:08,997 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:22:20,099 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:22:32,463 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:22:48,178 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:23:55,865 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [POST /boot-jersey/expenseController/add]
+2020-04-13 19:23:55,872 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : POST /boot-jersey/expenseController/add]
+2020-04-13 19:24:56,275 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:25:06,605 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:25:38,814 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:25:48,536 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] Before request [POST /boot-jersey/expenseController/add]
+2020-04-13 19:25:48,541 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] REQUEST DATA : POST /boot-jersey/expenseController/add]
+2020-04-13 19:26:40,438 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:26:54,214 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:26:59,061 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] Before request [POST /boot-jersey/expenseController/add]
+2020-04-13 19:26:59,146 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] REQUEST DATA : POST /boot-jersey/expenseController/add, payload={
+    
+    "expenseTitle": "Electricity",
+    "description": "laptop",
+    "amount": 80000.00
+    
+}]
+2020-04-13 19:27:48,743 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:28:01,483 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [POST /boot-jersey/expenseController/display]
+2020-04-13 19:28:01,493 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : POST /boot-jersey/expenseController/display]
+2020-04-13 19:28:25,915 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:28:29,531 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [POST /boot-jersey/expenseController/display]
+2020-04-13 19:28:29,537 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : POST /boot-jersey/expenseController/display]
+2020-04-13 19:28:32,523 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-3] Before request [POST /boot-jersey/expenseController/display]
+2020-04-13 19:28:32,525 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-3] REQUEST DATA : POST /boot-jersey/expenseController/display]
+2020-04-13 19:28:34,192 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-4] Before request [POST /boot-jersey/expenseController/display]
+2020-04-13 19:28:34,194 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-4] REQUEST DATA : POST /boot-jersey/expenseController/display]
+2020-04-13 19:28:35,736 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-5] Before request [POST /boot-jersey/expenseController/display]
+2020-04-13 19:28:35,739 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-5] REQUEST DATA : POST /boot-jersey/expenseController/display]
+2020-04-13 19:28:47,432 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:28:49,954 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] Before request [GET /boot-jersey/expenseController/display]
+2020-04-13 19:28:50,035 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] REQUEST DATA : GET /boot-jersey/expenseController/display]
+2020-04-13 19:29:17,274 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:29:24,532 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:31:01,381 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:31:50,659 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:32:03,732 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:33:25,119 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:33:56,129 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:34:35,338 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:34:52,940 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:35:04,377 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:37:37,718 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:37:58,573 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-13 19:38:13,877 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use

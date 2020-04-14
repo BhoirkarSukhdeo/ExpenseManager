@@ -1,0 +1,7 @@
+2020-04-10 15:09:12,020 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-10 15:09:27,837 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] Before request [GET /userController/getAllExpenseData]
+2020-04-10 15:09:28,901 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-1] REQUEST DATA : GET /userController/getAllExpenseData]
+2020-04-10 15:09:29,485 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] Before request [GET /favicon.ico]
+2020-04-10 15:09:29,511 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-2020-exec-2] REQUEST DATA : GET /favicon.ico]
+2020-04-10 15:15:19,117 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
+2020-04-10 15:16:33,763 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [restartedMain] Filter 'logFilter' configured for use
